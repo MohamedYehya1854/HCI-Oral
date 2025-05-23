@@ -1,0 +1,251 @@
+# Human-Computer Interaction (HCI) Concepts
+## مفاهيم التفاعل بين الإنسان والحاسوب
+
+This section covers different ways users interact with systems and various interface design alternatives.
+الجزء ده بيتكلم عن طرق مختلفة المستخدمين بيتفاعلوا بيها مع الأنظمة، وازاي نصمم بدائل مختلفة للواجهات.
+
+### Interaction Types
+### أنواع التفاعل
+
+There are different ways users interact with systems.
+فيه طرق مختلفة المستخدمين بيتفاعلوا بيها مع الأنظمة.
+
+*   **Conversing**: Users have a dialogue with a system, speaking or typing questions and receiving text or speech output.
+    **التحدث (Conversing)**: يعني المستخدم بيتكلم أو بيكتب أسئلة للنظام، والنظام بيرد عليه بكلام مكتوب أو منطوق.
+    *   Examples: Assistants like Siri, Cortana, Google Assistant, Alexa, and GPS systems.
+        أمثلة: المساعدين الشخصيين زي سيري وكورتانا وجوجل أسيستانت وأليكسا، وأنظمة الـ GPS.
+
+*   **Manipulating**: Users interact with objects in a virtual or physical space by manipulating them.
+    **التلاعب (Manipulating)**: يعني المستخدم بيتفاعل مع حاجات موجودة في عالم افتراضي أو حقيقي عن طريق إنه يحركها أو يتلاعب بيها.
+    *   Examples: Opening, holding, closing, or placing objects. Systems like Wii and Kinect use this type of interaction.
+        أمثلة: إنك تفتح حاجة، تمسكها، تقفلها، أو تحطها في مكان. أنظمة زي Wii و Kinect بتستخدم النوع ده من التفاعل.
+
+*   **Exploring**: Users move through a virtual environment or a physical space.
+    **الاستكشاف (Exploring)**: يعني المستخدم بيتحرك جوه بيئة افتراضية أو مكان حقيقي.
+    *   Examples: Virtual environments, 3D worlds, Augmented reality and virtual reality, and Smart homes.
+        أمثلة: البيئات الافتراضية، العوالم ثلاثية الأبعاد، الواقع المعزز والواقع الافتراضي، والبيوت الذكية.
+
+### Designing Alternatives: Interfaces
+### تصميم البدائل: الواجهات
+
+When designing, you suggest ideas for meeting the requirements. There are many types of interfaces.
+لما بتصمم، بتقترح أفكار عشان تلبي المتطلبات. فيه أنواع كتير من الواجهات.
+
+Some important interface types include:
+بعض أنواع الواجهات المهمة تشمل:
+
+*   **Command-based (CLI - Command Line Interface)**: This is a simpler and faster interface, often used in Expert Mode, and can be adapted for disabilities.
+    **الواجهة المبنية على الأوامر (CLI)**: دي واجهة أبسط وأسرع، غالباً بيستخدمها الخبراء، وممكن تتعدل عشان تناسب ذوي الاحتياجات الخاصة.
+
+*   **WIMP (GUI - Graphical User Interface)**: This stands for **W**indows, **I**cons, **M**enus, and **P**ointing device.
+    **الـ WIMP (الواجهة الرسومية GUI)**: الاختصار ده بيرمز لـ **نوافذ (Windows)**، **أيقونات (Icons)**، **قوائم (Menus)**، و**جهاز التأشير (Pointing device)**.
+    *   **Windows**: Invented to overcome physical constraints of a computer display. Challenges include difficulty finding a specific window and switching between windows.
+        **النوافذ (Windows)**: اتعملت عشان تتغلب على الحدود الفيزيائية لشاشة الكمبيوتر. التحديات بتاعتها بتشمل صعوبة تلاقي شباك معين وصعوبة التبديل بين النوافذ.
+    *   **Icons**: Represent applications, objects, commands, and tools. They are opened or activated when clicked on. Sources show a history of icon design from 1981 to 2001. Icons can be Flat Design (iOS & Windows) or Aqua Icons (iOS & Mac).
+        **الأيقونات (Icons)**: بتمثل التطبيقات، الحاجات، الأوامر، والأدوات. بتتفتح أو تتنشط لما تدوس عليها. المصادر بتعرض تاريخ تصميم الأيقونات من 1981 لـ 2001. الأيقونات ممكن تكون تصميم مسطح (Flat Design) في iOS وويندوز أو أيقونات أكوا (Aqua Icons) في iOS وماك.
+    *   **Menus**: Offer lists of options that can be scrolled through. Challenges include overshooting and scrolling.
+        **القوائم (Menus)**: بتعرض لستة من الاختيارات اللي ممكن تقلب فيها. التحديات بتاعتها تشمل إنك تعدي الاختيار اللي عايزه (overshooting) والتقليب نفسه (scrolling).
+        *   **Cascading Menu**: Allows choosing from options by displaying menus with multiple levels of hierarchy.
+            **القائمة المتتالية (Cascading Menu)**: بتخليك تختار من اختيارات عن طريق عرض قوائم ليها مستويات تسلسلية متعددة.
+        *   Other Menu Types: Category Menu, Circular Menu, Iconic Menu, Container Menu.
+            أنواع قوائم تانية: قائمة الفئات (Category Menu)، القائمة الدائرية (Circular Menu)، القائمة الأيقونية (Iconic Menu)، قائمة الحاوية (Container Menu).
+    *   **Pointing device**: A mouse is an example, used to control the cursor for interacting with WIMP elements.
+        **جهاز التأشير (Pointing device)**: الماوس مثال عليه، بيستخدم عشان تتحكم في مؤشر الفأرة (cursor) عشان تتفاعل مع عناصر الواجهة الرسومية.
+
+*   **Anti-aliasing**: Adding pixels around a jagged border of an object to visually smooth its outline. This technique helps draw curves and non-rectilinear lines, enabling more photo-illustrative styles.
+    **منع التعرج (Anti-aliasing)**: يعني إضافة بكسلات حوالين حدود أي حاجة فيها تعرج عشان شكلها يبان ناعم ومظبوط. التقنية دي بتساعد في رسم المنحنيات والخطوط اللي مش مستقيمة، وبتخلي ممكن نعمل أشكال تشبه الصور أكتر.
+
+*   **Multimedia**: Is the plural of medium and refers to a format of expression. It's a mix of different media like audio, video, visuals, shorts, movies, audiobooks, animation, or text through interactive platforms. It's extremely useful for educational purposes.
+    **الوسائط المتعددة (Multimedia)**: دي صيغة جمع لكلمة "وسط" (medium)، وبتشير لطريقة التعبير. هي خليط من وسائط مختلفة زي الصوت والفيديو والصور والمقاطع القصيرة والأفلام والكتب الصوتية والرسوم المتحركة أو النصوص، كل ده من خلال منصات تفاعلية. مفيدة جداً لأغراض التعليم.
+    *   Example: A multimedia-based encyclopedia about the heart can include video clips, audio recordings of experts, static diagrams with animation and narration, and hypertext.
+        مثال: موسوعة وسائط متعددة عن القلب ممكن تشمل فيديوهات، تسجيلات صوتية لخبراء، رسومات ثابتة مع حركات وشرح صوتي، ونصوص مترابطة (hypertext).
+
+*   **Visualization (Infoviz) & Dashboards**: Amplify human cognition by enabling users to see patterns, trends, and anomalies in data. Dashboards are interactive displays that allow slicing and dicing data to highlight important information. D3.js is a tool for visualizations.
+    **التصوير البصري للمعلومات (Visualization) ولوحات المعلومات (Dashboards)**: بتقوي قدرة الإنسان على الفهم والملاحظة بأنها بتخلي المستخدمين يشوفوا الأنماط والاتجاهات والحالات الشاذة في البيانات. لوحات المعلومات دي شاشات تفاعلية بتخليك تفحص البيانات وتحللها عشان تبرز المعلومات المهمة. D3.js أداة بتستخدم عشان تعمل التصوير البصري ده.
+
+*   **Web**: Has evolved significantly from text-only in the 1980s to more color and less text in the 1990s, adding Flash, usability, and functionality in the 2000s, and responsiveness, animation, and richness in the 2010s.
+    **الويب (Web)**: تطور كتير جداً من مجرد نصوص بس في التمانينات، بقى فيه ألوان أكتر ونصوص أقل في التسعينات، وضفنا الفلاش وسهولة الاستخدام والوظائف في الألفينات، وبقى بيتفاعل مع مقاسات الشاشات المختلفة وفيه حركات وغني أكتر في الألفينات وعشرة.
+
+*   **Consumer Electronics & Appliances**: Interfaces for devices like washing machines, remotes, DVD players, printers, navigation systems, MP3 players, cameras, etc..
+    **الإلكترونيات والأجهزة المنزلية الاستهلاكية**: واجهات الأجهزة زي الغسالات، الريموتات، مشغلات الـ DVD، الطابعات، أنظمة الملاحة، مشغلات الـ MP3، الكاميرات، إلخ.
+
+*   **Mobile UI Experience**: Characterized by compact display design, animated menus, virtual keyboard, monotasking (though multitasking is now common), and camera as an input device.
+    **تجربة واجهة المستخدم على الموبايل**: بتتميز بتصميم شاشة مدمج وصغير، قوائم متحركة، لوحة مفاتيح افتراضية، وإنه كان مصمم لشغل حاجة واحدة بس في وقت واحد (مع إن تعدد المهام بقى شائع دلوقتي)، واستخدام الكاميرا كجهاز إدخال.
+
+*   **Speech**: A system where a person talks with it using spoken language.
+    **الكلام (Speech)**: نظام بيتكلم مع الشخص باستخدام اللغة المنطوقة.
+    *   Example: Asking a system about a train timetable, travel planner, or phone service. Systems like Google Voice and Apple Siri are examples.
+        مثال: إنك تسأل نظام عن جدول مواعيد قطر، تخطيط رحلة، أو خدمة تليفون. أنظمة زي جوجل فويس وآبل سيري أمثلة على كده.
+
+*   **Pen**: Pen-based devices using light-pens or styluses enable users to write, draw, select, and move objects using hand drawing skills.
+    **القلم (Pen)**: الأجهزة اللي بتعتمد على القلم واللي بتستخدم أقلام ضوئية أو ستايلس بتخلي المستخدم يكتب ويرسم ويختار ويحرك الحاجات باستخدام مهارات الرسم اليدوي.
+
+*   **Touch**: Touch screens are used in ATMs, ticket machines, museum guides, and cell phones. It works by detecting the presence and location of a person's touch. Multi-touch allows gestures like swiping, flicking, pinching, pushing, and tapping.
+    **اللمس (Touch)**: الشاشات اللي بتشتغل باللمس بتستخدم في ماكينات الصرف الآلي، ماكينات التذاكر، أدلة المتاحف، والموبايلات. بتشتغل عن طريق إنها تحس بمكان لمسة الشخص. اللمس المتعدد (Multi-touch) بيسمح بحركات زي السحب السريع (swiping)، النقر السريع (flicking)، التصغير/التكبير بالقرص (pinching)، الدفع (pushing)، والنقر (tapping).
+
+*   **Air-based Gesture**: Uses camera capture, sensor, and computer vision techniques to recognize body, arm, and hand gestures.
+    **الإيماءات الجوية (Air-based Gesture)**: بتستخدم الكاميرا والحساسات وتقنيات رؤية الكمبيوتر عشان تتعرف على حركات الجسم والذراع والإيد.
+    *   Examples: Sony's Eye Toy, Nintendo's Wii, and Microsoft's Kinect.
+        أمثلة: Eye Toy بتاع سوني، Wii بتاع نينتندو، وKinect بتاع مايكروسوفت.
+
+*   **Shareable interfaces**: Designed for more than one person to use at the same time.
+    **الواجهات المشتركة (Shareable interfaces)**: مصممة عشان أكتر من شخص يستخدمها في نفس الوقت.
+    *   Examples: Smart Boards and interactive tabletops.
+        أمثلة: السبورات الذكية (Smart Boards) والترابيزات التفاعلية (interactive tabletops).
+
+*   **Tangible interfaces**: Use sensor-based interaction where physical objects like bricks, balls, and cubes are coupled with digital representations.
+    **الواجهات الملموسة (Tangible interfaces)**: بتستخدم تفاعل يعتمد على الحساسات، حيث حاجات فيزيائية ملموسة زي الطوب والكور والمكعبات بتكون مرتبطة بتمثيلات رقمية ليها.
+    *   Examples: Used in learning/design/playfulness activities and planning tools. Urp system for planning tools and TinkerSheets for logistics are examples.
+        أمثلة: بتستخدم في أنشطة التعلم والتصميم واللعب، وأدوات التخطيط. نظام Urp لأدوات التخطيط و TinkerSheets للوجستيات أمثلة عليها.
+
+*   **Virtual Reality (VR)**: Digital environments that shut out the real world.
+    **الواقع الافتراضي (VR)**: بيئات رقمية بتقفل العالم الحقيقي عنك.
+
+*   **Augmented Reality (AR)**: Digital content is placed on top of your real world.
+    **الواقع المعزز (AR)**: محتوى رقمي بيتحط فوق العالم الحقيقي اللي شايفه.
+
+*   **Mixed Reality**: Digital content interacts with your real world.
+    **الواقع المختلط (Mixed Reality)**: محتوى رقمي بيتفاعل مع العالم الحقيقي بتاعك.
+
+### Prototyping
+### عمل النماذج الأولية (البروتوتايب)
+
+A prototype is a manifestation of a design that allows stakeholders to interact with it and explore its suitability.
+البروتوتايب أو النموذج الأولي هو تجسيد للتصميم بيسمح للناس المعنيين (زي المستخدمين أو فريق العمل) إنهم يتفاعلوا معاه ويستكشفوا مدى مناسبته.
+
+Examples of what can be a prototype: Paper-based outline, collection of wires/components, electronic picture, video simulation, complex piece of software/hardware, 3D mockup.
+أمثلة على إيه ممكن يكون بروتوتايب: مخطط على ورق، مجموعة أسلاك ومكونات، صورة إلكترونية، محاكاة فيديو، جزء معقد من برنامج/جهاز، نموذج ثلاثي الأبعاد.
+
+There are three types of prototypes depending on your goals:
+فيه تلات أنواع من البروتوتايب بتختلف حسب أهدافك:
+
+*   **Proto-thinking**: To inform your thoughts and get ideas out of your head.
+    **بروتو-تفكير (Proto-thinking)**: عشان تساعدك ترتب أفكارك وتطلع اللي في دماغك.
+*   **PROBE prototype**: To get feedback from people, show someone something you've made, and learn something new.
+    **بروتوتايب للاختبار/الاستكشاف (PROBE)**: عشان تاخد آراء الناس، تعرض حاجة عملتها لحد، وتتعلم حاجة جديدة.
+*   **PILOT prototype**: Costs money, like sketching and modeling, but only takes time. (Note: The description seems a bit contradictory here - PILOT likely refers to a more advanced, time/cost-intensive prototype).
+    **بروتوتايب التشغيل التجريبي (PILOT)**: بيكلف فلوس ووقت، زي الرسم والنماذج المادية. (ملحوظة: الوصف ممكن يكون مش واضح هنا، غالباً PILOT بيركز على النماذج الأكثر تطوراً اللي بتاخد وقت وتكلفة).
+
+**Why Prototype?** Prototyping is useful because it's:
+**ليه نعمل بروتوتايب؟** عمل البروتوتايب مفيد عشان هو:
+
+1.  A communication device among team members.
+    أداة للتواصل بين أعضاء الفريق.
+2.  An effective way for designers to explore design ideas and get user feedback.
+    طريقة فعالة للمصممين عشان يستكشفوا أفكار التصميم وياخدوا آراء المستخدمين.
+
+Examples of *why* you would prototype: To test technical feasibility, clarify vague requirements, do user testing and evaluation, or check if a design direction fits with the rest of product development.
+أمثلة على *ليه* هتعمل بروتوتايب: عشان تختبر لو حاجة ممكن تتعمل من الناحية التقنية، توضح المتطلبات اللي مش واضحة، تعمل اختبار وتقييم للمستخدمين، أو تتأكد لو اتجاه تصميم معين متوافق مع باقي تطوير المنتج.
+
+Prototyping becomes easier with 3D printing.
+عمل البروتوتايب بقى أسهل مع الطباعة ثلاثية الأبعاد.
+
+### Fidelity Levels in Prototyping
+### مستويات الدقة في عمل البروتوتايب
+
+Prototypes can vary in their level of fidelity, from low to high.
+البروتوتايب ممكن يختلف في مستوى دقته، من منخفض لدقيق جداً.
+
+The stages often follow a progression:
+المراحل غالباً بتمشي بالترتيب ده:
+
+1.  **Sketch**: Drawing a basic concept (Low-Fidelity Representation).
+    **رسم مبدئي (Sketch)**: بترسم فكرة أساسية (تمثيل بدقة منخفضة).
+2.  **Wireframe**: Refining the concept further (Low-Fidelity Representation). Focuses on refining ideas, basic visual guide, structure, and flow. Presented with gray lines, boxes, colors, and placeholders.
+    **الهيكل السلكي (Wireframe)**: بتوضح الفكرة أكتر (تمثيل بدقة منخفضة). بتركز على تطوير الأفكار، دليل بصري أساسي، الهيكل، والتدفق. بيتعرض بخطوط رمادية، مربعات، ألوان بسيطة، وأماكن محجوزة للمحتوى.
+3.  **Mockup**: Creating visual graphic and content (Medium-Fidelity Representation). A static wireframe with more UI and visual details.
+    **النموذج البصري (Mockup)**: بتعمل الرسومات والمحتوى البصري (تمثيل بدقة متوسطة). ده عبارة عن هيكل سلكي ثابت بس فيه تفاصيل أكتر في واجهة المستخدم والشكل.
+4.  **Prototype**: A detailed visual representation of your product (High-Fidelity Representation).
+    **النموذج الأولي النهائي (Prototype)**: تمثيل بصري دقيق للمنتج بتاعك (تمثيل بدقة عالية).
+
+**Low-Fidelity Prototyping**:
+**البروتوتايب بدقة منخفضة (Low-Fidelity)**:
+
+*   Does not look much like the initial product and doesn't provide the same functionality.
+    شكله مش شبه المنتج النهائي أوي ومش بيقدم نفس الوظائف بتاعته.
+*   Useful because they are **simple, cheap, and quick to produce and modify**.
+    مفيد لأنه **بسيط ورخيص وسريع في عمله وتعديله**.
+*   Techniques include: Storyboarding, Sketching, Index Cards, Wireframes, and Wizard of Oz.
+    التقنيات بتاعته تشمل: رسم القصة (Storyboarding)، الرسم اليدوي (Sketching)، كروت الفهرسة (Index Cards)، الهياكل السلكية (Wireframes)، وساحر أوز (Wizard of Oz).
+    *   **Storyboarding**: Often used with scenarios. Shows sequence of user interaction.
+        **رسم القصة (Storyboarding)**: غالباً بيستخدم مع السيناريوهات. بيوضح تسلسل تفاعل المستخدم.
+    *   **Sketching**: Relies on hand-drawn sketches. **"Sketching is not about drawing. Rather, it is about design."** Don't put too many details.
+        **الرسم اليدوي (Sketching)**: بيعتمد على رسومات بالإيد. **"الرسم ده مش عن الرسم نفسه، لأ هو عن التصميم."** متدخلش في تفاصيل كتير.
+    *   **Index Cards**: Small pieces of cardboard often used for developing websites.
+        **كروت الفهرسة (Index Cards)**: قطع كرتون صغيرة بتستخدم غالباً في تطوير المواقع.
+    *   **Wizard of Oz**: The user interacts with the software, but a human operator is responding to the output instead of the system. Usually done in early stages to understand user expectations.
+        **ساحر أوز (Wizard of Oz)**: المستخدم بيتفاعل مع البرنامج، بس في الحقيقة مش البرنامج اللي بيرد عليه، ده بني آدم بيتحكم في الردود. غالباً بيتعمل في المراحل الأولانية عشان نفهم توقعات المستخدم.
+
+**Medium (Mid)-Fidelity Prototyping**:
+**البروتوتايب بدقة متوسطة (Medium-Fidelity)**:
+
+*   A prototype with limited functionality but **clickable areas** which present the interactions and navigation possibilities.
+    نموذج فيه وظائف محدودة بس فيه **أماكن قابلة للنقر** بتعرض التفاعلات الممكنة والتنقل بين الشاشات.
+*   Example: Mock-ups are static wireframes with more UI and visual details.
+    مثال: النماذج البصرية (Mock-ups) هي هياكل سلكية ثابتة بس فيها تفاصيل أكتر في واجهة المستخدم والشكل.
+
+**High-Fidelity Prototyping**:
+**البروتوتايب بدقة عالية (High-Fidelity)**:
+
+*   The prototype **looks like the final product** and/or provides **more functionality** than low fidelity.
+    النموذج شكله **شبه المنتج النهائي** و/أو بيوفر **وظائف أكتر** من النماذج قليلة الدقة.
+*   Useful for **Selling Ideas** to people.
+    مفيد عشان **تبيع الأفكار** للناس.
+*   Examples: Visual Basic mock interface, molded plastic piece with a dummy keyboard, screenshots representing a detailed layout.
+    أمثلة: واجهة وهمية معموله بالـ Visual Basic، قطعة بلاستيك متشكلة وفيها لوحة مفاتيح وهمية، لقطات شاشة (screenshots) بتوضح تفاصيل التصميم.
+
+### Compromises in Prototyping
+### التنازلات في عمل البروتوتايب
+
+When prototyping, you make compromises along different dimensions.
+لما بتعمل بروتوتايب، بتتنازل عن حاجات معينة في أبعاد مختلفة.
+
+*   **Filtering dimension**: Appearance, Data, Functionality, Interactivity, Spatial structure.
+    **بعد الفلترة (Filtering dimension)**: الشكل الخارجي (Appearance)، البيانات (Data)، الوظائف (Functionality)، التفاعلية (Interactivity)، الهيكل المكاني (Spatial structure).
+*   **Manifestation dimension**: Material (physical or visible), Resolution (level of detail or sophistication), Scope (range of what is manifested).
+    **بعد التجسيد (Manifestation dimension)**: المادة (حاجات مادية أو مرئية)، الدقة (مستوى التفاصيل أو التعقيد)، النطاق (مدى الحاجات اللي بتمثلها في النموذج).
+
+### Dangers of Prototyping
+### مخاطر عمل البروتوتايب
+
+Be aware of these potential issues:
+خلي بالك من المشاكل المحتملة دي:
+
+*   Prototypes can appear to users to be the final product.
+    البروتوتايب ممكن يبان للمستخدمين كأنه المنتج النهائي.
+*   Developers may consider the prototype as the final product or be in a rush and use parts of it in the final product.
+    المطورين ممكن يعتبروا البروتوتايب هو المنتج النهائي أو يستعجلوا ويستخدموا أجزاء منه في المنتج النهائي.
+
+### Styles of Prototyping
+### أنماط عمل البروتوتايب
+
+There are two main styles:
+فيه نمطين أساسيين:
+
+*   **Evolutionary Prototyping**: The prototype **evolves into the final product** and is subjected to rigorous testing along the way.
+    **البروتوتايب التطوري (Evolutionary Prototyping)**: النموذج الأولي **بيتطور ويبقى هو المنتج النهائي** وبيتم اختباره بشكل مكثف طول ما هو بيتطور.
+*   **Throwaway Prototyping**: The prototype is used as **steppingstones towards the final design**. Testing is not necessarily as we trash the prototype!.
+    **البروتوتايب المرمي (Throwaway Prototyping)**: النموذج الأولي بيستخدم كـ **خطوات أو أساسات عشان نوصل للتصميم النهائي**. الاختبار مش ضروري هنا لأننا في الآخر بنرمي النموذج الأولي ومش بنستخدمه.
+
+### Prototyping Case Study: SITU
+### دراسة حالة لعمل البروتوتايب: SITU
+
+SITU is a case study involving smart scales and a tablet app for diet tracking.
+SITU دي دراسة حالة عن ميزان ذكي وتطبيق على التابلت لتتبع النظام الغذائي.
+
+The prototyping process for SITU involved several stages:
+عملية عمل البروتوتايب لـ SITU مرت بمراحل كتير:
+
+1.  **Sketching**: Basic drawings of the application and the scales.
+    **الرسم المبدئي (Sketching)**: رسومات بسيطة للتطبيق والميزان.
+2.  **Wireframes**: More structured representations of the application interface and scale design.
+    **الهياكل السلكية (Wireframes)**: تمثيلات أكتر تنظيماً لواجهة التطبيق وتصميم الميزان.
+3.  **Mockups**: Visual designs of the application screens showing the interface and how it works.
+    **النماذج البصرية (Mockups)**: تصاميم شكلية لشاشات التطبيق بتوضح الواجهة وازاي بتشتغل.
+4.  **Prototype**: Functional prototypes of the application interface and the physical scales.
+    **البروتوتايب (Prototype)**: نماذج أولية فعلية بتشتغل لواجهة التطبيق وللميزان نفسه.
+5.  **Final product**: The finished scales and application, showing the user interface with data like nutrition information.
+    **المنتج النهائي (Final product)**: الميزان والتطبيق بعد ما خلصوا، بيعرض واجهة المستخدم وفيها بيانات زي معلومات التغذية.
+
+This case study demonstrates how prototyping progresses from early concepts to a finished product.
+دراسة الحالة دي بتوضح إزاي عمل البروتوتايب بيمشي من الأفكار الأولانية لحد ما يوصل للمنتج النهائي.
